@@ -36,7 +36,8 @@ add_service_files(
   motion_tools_srv.srv
   misc_tools_srv.srv
   speech_recognition_srv.srv
-  show_image_srv.srv
+  tablet_service_srv.srv
+  go_to_posture_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
