@@ -38,11 +38,12 @@ add_service_files(
   speech_recognition_srv.srv
   tablet_service_srv.srv
   go_to_posture_srv.srv
-  set_output_volume_srv.srv
+  get_input_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
 
 catkin_package( CATKIN_DEPENDS message_runtime std_msgs )
+
 
 
