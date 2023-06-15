@@ -26,6 +26,8 @@ add_message_files(
   path_msg.msg
   special_settings_msg.msg
   touch_msg.msg
+  speech_recognition_status_msg.msg
+  text_to_speech_status_msg.msg
   )
 
 add_service_files(
