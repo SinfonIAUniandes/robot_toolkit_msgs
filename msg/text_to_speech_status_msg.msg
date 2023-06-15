@@ -1,0 +1,2 @@
+int32 idOfConcernedTask
+string status
