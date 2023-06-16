@@ -1,0 +1,5 @@
+bool subscribe
+bool noise
+bool eyes
+---
+string approved
