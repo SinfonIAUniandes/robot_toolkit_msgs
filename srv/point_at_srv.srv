@@ -1,0 +1,7 @@
+float64 x
+float64 y
+float64 z
+string effector_name
+int32 frame
+---
+string approved
