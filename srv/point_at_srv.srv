@@ -3,5 +3,6 @@ float64 y
 float64 z
 string effector_name
 int32 frame
+float64 speed
 ---
 string approved
