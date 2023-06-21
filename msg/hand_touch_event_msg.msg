@@ -1,0 +1,2 @@
+string location
+bool event
