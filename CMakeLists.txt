@@ -41,7 +41,7 @@ add_service_files(
   tablet_service_srv.srv
   go_to_posture_srv.srv
   get_input_srv.srv
-  set_security_distance_srv.srv
+  set_speechrecognition_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
