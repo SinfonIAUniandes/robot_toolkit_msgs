@@ -42,6 +42,8 @@ add_service_files(
   go_to_posture_srv.srv
   get_input_srv.srv
   set_speechrecognition_srv.srv
+  set_output_volume_srv.srv
+  point_at_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
