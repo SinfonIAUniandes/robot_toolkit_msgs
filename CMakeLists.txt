@@ -28,7 +28,6 @@ add_message_files(
   touch_msg.msg
   speech_recognition_status_msg.msg
   text_to_speech_status_msg.msg
-  hand_touch_event_msg.msg
   )
 
 add_service_files(
