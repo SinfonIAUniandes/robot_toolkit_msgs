@@ -46,6 +46,8 @@ add_service_files(
   point_at_srv.srv
   set_open_close_hand_srv.srv
   set_angle_srv.srv
+  move_head_srv.srv
+  get_segmentation3D_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
