@@ -45,6 +45,7 @@ add_service_files(
   set_output_volume_srv.srv
   point_at_srv.srv
   set_open_close_hand_srv.srv
+  set_angle_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
