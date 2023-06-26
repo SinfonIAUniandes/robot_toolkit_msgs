@@ -48,6 +48,7 @@ add_service_files(
   set_angle_srv.srv
   move_head_srv.srv
   get_segmentation3D_srv.srv
+  set_move_arms_enabled_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
