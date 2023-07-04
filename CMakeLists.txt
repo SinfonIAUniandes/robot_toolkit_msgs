@@ -50,7 +50,7 @@ add_service_files(
   get_segmentation3D_srv.srv
   set_move_arms_enabled_srv.srv
   navigate_to_srv.srv
-  Tshirt_color_srv
+  Tshirt_color_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
