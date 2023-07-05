@@ -51,6 +51,7 @@ add_service_files(
   set_move_arms_enabled_srv.srv
   navigate_to_srv.srv
   Tshirt_color_srv.srv
+  set_stiffness_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
