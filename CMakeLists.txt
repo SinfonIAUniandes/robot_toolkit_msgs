@@ -53,6 +53,7 @@ add_service_files(
   Tshirt_color_srv.srv
   set_stiffnesses_srv.srv
   battery_service_srv.srv
+  say_to_file_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
