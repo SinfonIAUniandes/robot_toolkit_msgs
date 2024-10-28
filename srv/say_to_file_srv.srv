@@ -1,4 +1,4 @@
-string file_name
+string text
 
 ---
 uint8[] data
