@@ -54,6 +54,8 @@ add_service_files(
   set_stiffnesses_srv.srv
   battery_service_srv.srv
   say_to_file_srv.srv
+  set_words_threshold_srv.srv
+  set_security_distance_srv.srv
   )
   
 generate_messages(DEPENDENCIES std_msgs  sensor_msgs)
